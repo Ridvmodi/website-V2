@@ -7,10 +7,10 @@ export default class Header extends Component {
   <Carousel.Item>
     <img className={"background-image"}  alt="900x500" src="images/img3.jpg" />
         <Grid>
-         <Row className="show-grid">
+        <Row className="show-grid">
         <Col xs={6} xsOffset={6}>
-        <h1>CODUINO</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <h1>CODEUINO</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s</p>
     </Col>
   </Row>
         </Grid>
@@ -18,10 +18,10 @@ export default class Header extends Component {
   <Carousel.Item>
     <img className={"background-image"} alt="900x500" src="images/img4.jpg" / >
         <Grid>
-          <Row className="show-grid">
+        <Row className="show-grid">
         <Col xs={6} xsOffset={6}>
-        <h1>CODUINO</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <h1>CODEUINO</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s</p>
     </Col>
   </Row>
         </Grid>
@@ -31,8 +31,8 @@ export default class Header extends Component {
              <Grid>
           <Row className="show-grid">
         <Col xs={6} xsOffset={6}>
-        <h1>CODUINO</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <h1>CODEUINO</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s</p>
     </Col>
   </Row>
         </Grid>

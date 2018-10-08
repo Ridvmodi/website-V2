@@ -6,7 +6,7 @@ export default class NavBar extends Component {
     <Navbar fixedTop dark expand="md" scrolling inverse collapseOnSelect>
         <Navbar.Header>
             <Navbar.Brand>
-                <a href="#home">CODUINO</a>
+                <a href="#home">CODEUINO</a>
             </Navbar.Brand>
         </Navbar.Header>
         <Nav pullRight>
