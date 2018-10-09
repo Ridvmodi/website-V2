@@ -3,12 +3,14 @@ import {Navbar, Nav, NavItem} from 'react-bootstrap';
 export default class NavBar extends Component {
   render () {
     return (
-    <Navbar fixedTop dark expand="md" scrolling inverse collapseOnSelect>
+    <Navbar fluid expand="md" scrolling>
         <Navbar.Header>
             <Navbar.Brand>
-                <a href="#home">CODEUINO</a>
+                <div className="navbarlogo"><a href="index.html">CODEUINO<span>.</span></a></div>
             </Navbar.Brand>
+            <Navbar.Toggle />
         </Navbar.Header>
+        <Navbar.Collapse>
         <Nav pullRight>
         <NavItem eventKey={1} href="#">
         Home
@@ -29,6 +31,7 @@ export default class NavBar extends Component {
         Get Involved
         </NavItem>
         </Nav>
+      </Navbar.Collapse>
     </Navbar>
     )
   }
