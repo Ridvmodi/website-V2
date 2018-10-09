@@ -6,6 +6,7 @@ import '../styles/app.css'
 import HomePage from './HomePage'
 import NavBar from './Navbar'
 import Footer from './Footer'
+import Header from './Header'
 
 
 class App extends Component {
@@ -13,6 +14,9 @@ class App extends Component {
     return (
       <div className="app">
       <NavBar/>
+            <header>
+        <Header/>
+        </header>
       <div className="container mainContent">
         <Switch>
           <Route exact path='/' component={HomePage}/>
