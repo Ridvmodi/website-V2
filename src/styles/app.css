@@ -65,9 +65,67 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /* Footer Styles */
-footer {
-  flex-shrink: 1;
+.footer{
+  background-color: #0A2937;
+  padding: 30px 30px;
+  padding-left: 17px;
+  margin-right: 0;
+  padding-bottom: 10px;
 }
+.footer h1{
+    color: white;
+}
+.footer p{
+  color: white;
+  opacity: .5;
+  margin-right: 200px;
+} 
+.footer .in{
+  background-color: #9bbadb;
+      border: none;
+      height: 50px;
+      width: 300px;
+      margin-bottom: 10px;
+      padding : 3px 10px;
+      margin-right: 10px;
+}
+.footer .btn{
+      border: none;
+      width: 90px;
+}
+.footer .ico{
+  color:white;
+  font-size: 20px;
+}
+.footer #modal-btn{
+  display: none;
+}
+@media(max-width: 767px){
+  .footer{
+    padding-top: 20px;
+    margin-right: 0;
+  }
+  .footer p{
+    display: none;
+  }
+  .footer h1{
+    margin-left: 37%;
+    font-size: 20px;
+  }
+  .footer .btn{
+    margin-left: 37%
+  }
+  .footer ul{
+    padding-left: 37%;
+  }
+  .footer #title{
+    display: none;
+  }
+  .footer #modal-btn{
+    display: block;
+    margin-bottom: 20px;
+  }
 
+}
 
 /*  Add Your CSS Styles Here */
